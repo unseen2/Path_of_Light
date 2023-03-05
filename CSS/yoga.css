@@ -10,7 +10,6 @@ body
 header
 {
     background-color: #40407A;
-    color: #FFFFFF;
     background-image: url('/img/sunrise.jpg');
     background-size: 100% 100%;
     margin-top: 50px;
@@ -20,20 +19,12 @@ header
 
 header a{
     text-decoration: none;
+
 }
 
-header a:link{
-    color: #FFFFFF;
-}
+header a:link{color: #FFFFFF;}
 
-header a:visited{
-    color: #FFFFFF;
-}
-
-header a:hover{
-    color: #EDF5F5;
-}
-
+header a:visited{color: #FFFFFF;}
 
 footer
 {
@@ -41,6 +32,11 @@ footer
     font-size: small;
     font-style: italic;
     float: none;
+}
+
+h1 a:hover{
+    color: #8F92B2;
+    transition: color 10.0s ease-out;
 }
 
 nav{
